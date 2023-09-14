@@ -1,16 +1,16 @@
 from typing import Optional
 
-from pyregistry import PyRegistry
+from pyregistries import PyRegistries
 
 
-class PyRegistryMulti(PyRegistry):
+class PyRegistriesMulti(PyRegistries):
     """
     Extended class for registering and managing classes with multiple base class support.
     """
 
     def __init__(self, default: Optional[object] = None) -> None:
         """
-        Initializes an instance of PyRegistryMulti.
+        Initializes an instance of PyRegistriesMulti.
 
         Args:
             default (Optional[object]): The default value returned if the requested class is not registered.

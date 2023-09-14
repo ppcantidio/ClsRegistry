@@ -4,14 +4,14 @@ import pkgutil
 from typing import Callable, List, Optional, Union
 
 
-class PyRegistry:
+class PyRegistries:
     """
     Class for registering and managing classes in a registry.
     """
 
     def __init__(self, base_class: Optional[type] = None, default: Optional[object] = None) -> None:
         """
-        Initializes an instance of PyRegistry.
+        Initializes an instance of PyRegistries.
 
         Args:
             base_class (Optional[type]): The base class to which registered classes must be subclasses.

@@ -1,1 +1,1 @@
-# pyregistry
+# pyregistries

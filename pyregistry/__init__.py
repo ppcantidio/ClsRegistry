@@ -1,2 +1,0 @@
-from pyregistry import PyRegistry as PyRegistry
-from pyregistry_multi import PyRegistryMulti as PyRegistryMulti
