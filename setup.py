@@ -1,7 +1,7 @@
 from setuptools import find_packages, setup
 
 setup(
-    name="ClsRegistry",
+    name="clsregistry",
     version="1.0.0",
     author="Pedro Cantidio",
     author_email="ppcantidio@gmail.com",
@@ -20,5 +20,6 @@ setup(
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
     ],
 )
