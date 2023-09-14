@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 setup(
     name="clsregistry",
-    version="1.0.0",
+    version="0.1.0",
     author="Pedro Cantidio",
     author_email="ppcantidio@gmail.com",
     description="A simple class to facilitate the implementation of the Registry Pattern",
@@ -11,7 +11,7 @@ setup(
     url="https://github.com/ppcantidio/ClsRegistry.py",
     packages=find_packages(exclude=["tests"]),
     classifiers=[
-        "Development Status :: 5 - Production/Stable",
+        "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
