@@ -1,14 +1,14 @@
 from setuptools import find_packages, setup
 
 setup(
-    name="PyRegistries",
+    name="ClsRegistry",
     version="1.0.0",
     author="Pedro Cantidio",
     author_email="ppcantidio@gmail.com",
     description="A simple class to facilitate the implementation of the Registry Pattern",
-    long_description="pyregistries is a Python library that provides a class for registering and managing classes in a registry, making it easier to implement the Registry Pattern in your projects.",
+    long_description="ClsRegistry is a Python library that provides a class for registering and managing classes in a registry, making it easier to implement the Registry Pattern in your projects.",
     long_description_content_type="text/plain",
-    url="https://github.com/ppcantidio/pyregistries.py",
+    url="https://github.com/ppcantidio/ClsRegistry.py",
     packages=find_packages(exclude=["tests"]),
     classifiers=[
         "Development Status :: 5 - Production/Stable",
